@@ -7,7 +7,7 @@
   **Email**: anna9grace@gmail.com  
   **Phone**: 8(965)098-63-84  
 
-3. ## About me(ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)    
+3. ## About me    
   I love learning and obtaining new skills and can do it in a short terms then needed.  
   In working process I most value oportunities for professional and personal self-development and necessity to keep up the latest updates, new techniques and tools. That is the main reason why I have once made my mind to change the profession - leave accounting and try myself in the IT field.  
   I am very hard-working, responsible and disciplined. One of my strengths - is time-managment and meeting deadlines.  
@@ -61,6 +61,6 @@
   * **2021 - to the current time**: taking part in RS School JavaScript course  
 
 8. ## English    
-  *Level of language proficiency:* **B1-B2**  
+  *Level of language proficiency:* **B1-B2**    
   In 2014 after University graduation participated in international volunteer programm in Germany (speaking language - English).  
   In 2016 took part in Ecological School in Germany.
