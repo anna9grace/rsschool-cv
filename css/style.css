@@ -7,9 +7,7 @@ html { box-sizing: border-box; }
 
 *, *::after, *::before { box-sizing: inherit; }
 
-.page { 
-  min-height: 100%;
-}
+.page { min-height: 100%; }
 
 .page-body {
   display: flex;
@@ -26,9 +24,9 @@ html { box-sizing: border-box; }
 
 .page-header { 
   display: flex;
-  padding: 20px 50px;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 50px;
   color: #015887;
   background: linear-gradient(to right bottom, #86b4e3 0%, #86e3d2 100%);
 }
@@ -58,8 +56,8 @@ html { box-sizing: border-box; }
 
 .title {
   margin-bottom: 50px;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   text-decoration: underline;
   color: #015887;
 }
