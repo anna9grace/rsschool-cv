@@ -10,6 +10,116 @@
 </head>
 
 <body>
+  <header>
+    <h1>CV of Anna Rodionova</h1>
+    <ul>
+      <li>
+        <a href="mailto:anna9grace@gmail.com">anna9grace@gmail.com</a>
+      </li>
+      <li>
+        <a href="tel:89650986384">8(965)098-63-84</a>
+      </li>
+    </ul>
+  </header>
+
+  <main>
+    <section>
+      <img src="./img/portrait.jpg" alt="My portrait" width="372" height="577">
+      <div>
+        <h2>introduction</h2>
+        <p>My name is Anna Rodionova</p>
+        <p>I love learning and obtaining new skills and can do it in a short terms then needed.
+          In working process I most value oportunities for professional and personal self-development and necessity to keep up the latest updates, new techniques and tools. That is the main reason why I have once made my mind to change the profession - leave accounting and try myself in the IT field.
+          I am very hard-working, responsible and disciplined. One of my strengths - is time-managment and meeting deadlines.</p>
+      </div>
+    </section>
+    <section>
+      <h2>skills and professional background</h2>
+
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>semantic HTML5</li>
+          <li>CSS3</li>
+          <li>adaptive layouts</li>
+          <li>JavaScript</li>
+          <li>bundlers and task-runners: Gulp, Webpack</li>
+          <li>Figma, Photoshop</li>
+          <li>Prepocessors: SCSS, Less</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Code examples</h3>
+        <pre>
+          <code>
+            export default class Abstract {
+              constructor() {
+                if (new.target === Abstract) {
+                  throw new Error(`Can't instantiate Abstract, only concrete one`);
+                }
+                this._element = null;
+                this._callback = {};
+              }
+            
+              getTemplate() {
+                throw new Error(`Abstract method not implemented: getTemplate`);
+              }
+            
+              getElement() {
+                if (!this._element) {
+                  this._element = createElement(this.getTemplate());
+                }
+                return this._element;
+              }
+            
+              removeElement() {
+                this._element = null;
+              }
+            }
+          </code>
+        </pre>
+      </div>
+      <div>
+        <h3>Professional experience</h3>
+        <ul>
+          <li><b>2014 - 2020:</b> worked as Accountor in several companies in Nizhny Novgorod and Saint-Peterburg</li>
+          <li><b>2020:</b> created 3 web-pages as graduation projects of HTML Academy html/css-courses</li>
+          <li><b>2020:</b> progammed 2 SPA as graduation projects of HTML Academy JS-courses</li>
+          <li><b>2021 - to the current time:</b> create web-pages as part of HTML Academy "accelerator" programm (preparation to internship</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Education</h3>
+        <ul>
+          <li><b>2009 - 2014:</b> Graduated Faculty of Economics of Nizhny Novgorod State University with specialization in accounting and audit</li>
+          <li><b>2020 - 2021:</b> Passed Frontend-development courses of HTML Academy</li>
+          <li><b>2021 - to the current time:</b> Taking part in RS School JavaScript course</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Additional information</h2>
+      <div>
+        <h3>Knowledge of English</h3>
+        <b>Level of language proficiency - B1-B2</b>
+        <p>In 2014 after University graduation participated in international volunteer programm in Germany (speaking language - English).</p>
+        <p>In 2016 took part in Ecological School in Germany.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>If interested in working together - please contact me</p>
+    <ul>
+      <li>
+        <a href="mailto:anna9grace@gmail.com">anna9grace@gmail.com</a>
+      </li>
+      <li>
+        <a href="tel:89650986384">8(965)098-63-84</a>
+      </li>
+    </ul>
+  </footer>
 
 </body>
 
