@@ -7,18 +7,64 @@ html { box-sizing: border-box; }
 
 *, *::after, *::before { box-sizing: inherit; }
 
-.page { height: 100%; }
+.page { 
+  min-height: 100%;
+}
 
 .page-body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  margin: 0;
+  max-width: 1400px;
+  margin: 0 auto;
   padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
 }
 
-.page-main { flex-grow: 1; }
+.page-main { 
+  flex-grow: 1;
+  width: 80%;
+  background-color: rgba(0,0,0,0.05);
+}
 
-.page-footer { flex-shrink: 0; }
+.page-header { 
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right bottom, #86b4e3 0%, #86e3d2 100%);
+}
 
+.header-title {
+  text-transform: uppercase;
+  color: #015887;
+}
+
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header-contacts-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #015887;
+}
+
+.header-contacts-link:hover, .header-contacts-link:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+.header-contacts-link:active { opacity: 0.7; }
+
+.page-footer { 
+  flex-shrink: 0;
+  padding: 20px 50px;
+}
+/* 
+.header-title */
