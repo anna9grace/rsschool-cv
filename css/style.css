@@ -19,13 +19,9 @@ html { box-sizing: border-box; }
   margin: 0 auto;
   padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
+  color: #1c1c1c;
   font-size: 18px;
-}
-
-.page-main { 
-  flex-grow: 1;
-  width: 80%;
-  background-color: rgba(0,0,0,0.05);
+  line-height: 24px;
 }
 
 .page-header { 
@@ -59,6 +55,53 @@ html { box-sizing: border-box; }
 }
 
 .contacts-link:active { opacity: 0.7; }
+
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  color: #015887;
+}
+
+.inner-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.page-main { 
+  flex-grow: 1;
+  width: 100%;
+  padding: 40px 10%;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.introduction {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 100px;
+  font-size: 18px;
+}
+
+.introduction-photo {
+  width: 372px;
+  margin-right: 50px;
+  object-fit: contain;
+}
+
+.examples { 
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.examples-code {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #0070ac;
+  box-shadow: 0 0 5px 1px #0070ac;
+}
 
 .page-footer { 
   flex-shrink: 0;
