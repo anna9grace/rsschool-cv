@@ -151,9 +151,3 @@ html { box-sizing: border-box; }
   margin-bottom: 15px;
   margin-top: 15px;
 }
-
-.footer-contacts-list {
-  margin-top: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
