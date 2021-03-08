@@ -1,0 +1,151 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html { box-sizing: border-box; }
+
+*, *::after, *::before { box-sizing: inherit; }
+
+.page { min-height: 100%; }
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  color: #1c1c1c;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.page-header { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  color: #015887;
+  background: linear-gradient(to right bottom, #86b4e3 0%, #86e3d2 100%);
+}
+
+.header-title { text-transform: uppercase; }
+
+.header-contacts-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.contacts-link {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.contacts-link:hover, .contacts-link:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+.contacts-link:active { opacity: 0.7; }
+
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #015887;
+}
+
+.inner-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.page-main { 
+  flex-grow: 1;
+  width: 100%;
+  padding: 40px 10%;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.introduction {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 100px;
+  font-size: 18px;
+}
+
+.introduction-photo {
+  width: 372px;
+  margin-right: 50px;
+  object-fit: contain;
+}
+
+.skills-list {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-item {
+  margin-bottom: 10px;
+}
+
+.examples { 
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.examples-code {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #0070ac;
+  box-shadow: 0 0 5px 1px #0070ac;
+}
+
+.experience { margin-bottom: 50px; }
+
+.education { margin-bottom: 100px; }
+
+.education-list, .experience-list {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+.education-period, .experience-period {
+  display: block;
+  margin-top: 20px;
+  margin-left: -20px;
+  color: #0070ac;
+}
+
+.language-level {
+  color: #0070ac;
+  font-size: 20px;
+}
+
+.page-footer { 
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  font-size: 22px;
+  color: #01486e;
+  background: linear-gradient(to right bottom, #86b4e3 0%, #86e3d2 100%);
+}
+
+.page-footer .contacts-link {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
