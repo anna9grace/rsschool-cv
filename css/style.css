@@ -103,6 +103,29 @@ html { box-sizing: border-box; }
   box-shadow: 0 0 5px 1px #0070ac;
 }
 
+.experience { margin-bottom: 50px; }
+
+.education { margin-bottom: 100px; }
+
+.education-list, .experience-list {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+.education-period, .experience-period {
+  display: block;
+  margin-top: 20px;
+  margin-left: -20px;
+  color: #0070ac;
+}
+
+.language-level {
+  color: #0070ac;
+  font-size: 20px;
+}
+
 .page-footer { 
   flex-shrink: 0;
   display: flex;
